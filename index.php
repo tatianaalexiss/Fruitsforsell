@@ -61,7 +61,7 @@ body {
   }
 }
       body {
-        background-image: ('Fruitforsell/fruits.jpg');
+        background-image: url ('Fruitforsell/fruits.jpg');
         background-size: cover;
       }
      
