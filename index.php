@@ -80,6 +80,11 @@ body {
   </head>
    
     <body>
+        <form action="DPH.php" method="get">
+      <label for="search">Search:</label>
+      <input type="text" name="search" id="search">
+      <button type="submit">Search</button>
+        </form>
 $conn;
     </body>
 </html>
