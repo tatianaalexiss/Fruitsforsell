@@ -13,9 +13,9 @@
     </style>
   </head>
     <h1>
-        <centered>
+        <center>
         Exotic Fruits
-        </centered>
+        </center>
     </h1>
     <body>
 $conn;
