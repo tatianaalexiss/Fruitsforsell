@@ -60,6 +60,13 @@ body {
     float: none;
   }
 }
+      body {
+        background-image: ('Fruitforsell/fruits.jpg');
+        background-size: cover;
+      }
+     
+    
+    
 </style>	
 </head>
 <body>
