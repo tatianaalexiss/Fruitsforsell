@@ -85,6 +85,6 @@ body {
       <input type="text" name="search" id="search">
       <button type="submit">Search</button>
         </form>
-$conn;
+
     </body>
 </html>
