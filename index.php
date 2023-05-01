@@ -5,10 +5,18 @@
 <!DOCTYPE html>
 <html>
     <head>  
-        <h1>
-        Exotic Fruit For Sell
-        </h1>
-    </head>
+        <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+    <h1>
+        <centered>
+        Exotic Fruits
+        </centered>
+    </h1>
     <body>
 $conn;
     </body>
