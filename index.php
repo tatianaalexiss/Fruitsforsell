@@ -60,12 +60,11 @@ body {
     float: none;
   }
 }
-      body {
-        background-image: url ('https://raw.githubusercontent.com/tatianaalexiss/Fruitsforsell/blob/main/to/fruits.jpg');
+    body {
+        background-image: url ('https://raw.githubusercontent.com/tatianaalexiss/Fruitsforsell/main/to/fruits.jpg');
         background-size: cover;
       }
      
-    
     
 </style>	
 </head>
