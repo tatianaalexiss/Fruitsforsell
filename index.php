@@ -67,8 +67,6 @@ body {
 <div class="header">
   <a href="#default" class="logo"> Exotic Fruits </a>
   <div class="header-right">
-    <a href= "fruit.html">Fruits</a>
-    <a href="orders.html">Orders</a>
   </div>
 </div>
 <style>
