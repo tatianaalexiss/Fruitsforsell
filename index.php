@@ -61,7 +61,7 @@ body {
   }
 }
       body {
-        background-image: url ('fruits.jpg');
+        background-image: url ('https://github.com/tatianaalexiss/Fruitsforsell/blob/main/fruits.jpg');
         background-size: cover;
       }
      
