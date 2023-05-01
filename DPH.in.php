@@ -12,13 +12,29 @@ if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql_queries = $_POST['sql_queries'];
+$result = mysqli_query($conn, "SELECT * FROM your_table");
 
-if (mysqli_multi_query($conn, $sql_queries)) {
-  echo "SQL queries executed successfully";
-} else {
-  echo "Error executing SQL queries: " . mysqli_error($conn);
-}
 ?>
 
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <?php while ($row = mysqli_fetch_assoc($result)) { ?>
+      <tr>
+        <td><?php echo $row['id']; ?></td>
+        <td><?php echo $row['name']; ?></td>
+        <td><?php echo $row['email']; ?></td>
+      </tr>
+    <?php } ?>
+  </tbody>
+</table>
 
+<?php
+mysqli_close($conn);
+?>
