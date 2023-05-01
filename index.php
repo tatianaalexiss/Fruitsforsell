@@ -60,14 +60,15 @@ body {
     float: none;
   }
 }
+</style>
+</head>
+<style>
+    
     body {
         background-image: url ('https://raw.githubusercontent.com/tatianaalexiss/Fruitsforsell/main/fruits.jpg');
         background-size: cover;
       }
-     
-    
-</style>	
-</head>
+</style>
 <body>
 
 <div class="header">
