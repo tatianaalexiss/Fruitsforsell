@@ -69,19 +69,16 @@ body {
   <div class="header-right">
   </div>
 </div>
-<style>
-    body {
-        background-image: url ('fruits.jpg');
-        background-size: cover;
-      }
-</style>
+
   </head>
    
     <body>
+        <center>
         <form action="DPH.in.php" method="get">
       <label for="search">Search:</label>
       <input type="text" name="search" id="search">
       <button type="submit">Search</button>
+            </center>
         </form>
 
     </body>
