@@ -5,9 +5,9 @@
 <!DOCTYPE html>
 <html>
     <head>  
-        <title>
+        <h1>
         Exotic Fruit For Sell
-        </title>
+        </h1>
     </head>
     <body>
 $conn;
