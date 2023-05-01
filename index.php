@@ -62,13 +62,6 @@ body {
 }
 </style>
 </head>
-<style>
-    
-    body {
-        background-image: url ('https://raw.githubusercontent.com/tatianaalexiss/Fruitsforsell/main/fruits.jpg');
-        background-size: cover;
-      }
-</style>
 <body>
 
 <div class="header">
@@ -79,6 +72,11 @@ body {
   </div>
 </div>
 <style>
+    body {
+        background-image: url ('https://raw.githubusercontent.com/tatianaalexiss/Fruitsforsell/main/fruits.jpg');
+        background-size: cover;
+      }
+</style>
   </head>
    
     <body>
