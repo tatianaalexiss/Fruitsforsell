@@ -12,7 +12,7 @@ if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-$result = mysqli_query($conn, "SELECT * FROM your_table");
+$result = mysqli_query($conn, "SELECT * FROM exotics_fruit_inventory ORDER BY fruit_name ASC;");
 
 
 mysqli_close($conn);
